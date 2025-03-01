@@ -1,0 +1,7 @@
+version: '3'
+services:
+  proxyrack:
+    image: proxyrack/pop
+    environment:
+      - UUID=${UUID}
+    restart: always
